@@ -43,6 +43,8 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
             node.scale.y += 1
             node.scale.z += 1
         }
+        
+        
     }
     
     override func viewDidLoad() {
@@ -53,18 +55,9 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
         
         sceneView.session.delegate = self
         
-        // Show statistics such as fps and timing information
         // sceneView.showsStatistics = true
-        //sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
+        // sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
         
-        // Create a new scene
-        
-        
-//        scene.rootNode.childNodes.forEach { (node: SCNNode) in
-//            node.look(at: sceneView.session.currentFrame?.camera.)
-//        }
-        
-        // Set the scene to the view
         
     }
     
